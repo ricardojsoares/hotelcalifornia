@@ -19,6 +19,8 @@
   <li>IDE Eclipse</li>
 </ul>
 
+<img src="./img/swagger1.png" alt="Serviços da classe Hotel"/>
+
 <strong>Métodos utilizados para os serviços da classe Hotel:</strong>
 <ul>
   <li>findAll(GET) - http://localhost:8097/hotelcalifornia/hotel</li>
@@ -28,6 +30,8 @@
   <li>delete(DELETE) - http://localhost:8097/hotelcalifornia/hotel/{matricula}</li>
 </ul>
 
+<img src="./img/swagger3.png" alt="Serviços da classe Hotel"/>
+<br>
 <strong>Métodos utilizados para os serviços da classe Cliente:</strong>
 <ul>
   <li>findAll(GET) - http://localhost:8097/hotelcalifornia/cliente</li>
@@ -36,5 +40,6 @@
   <li>update(PUT) -http://localhost:8097/hotelcalifornia/cliente</li>
   <li>delete(DELETE) - http://localhost:8097/hotelcalifornia/cliente/{cpf}</li>
 </ul>
+<img src="./img/swagger2.png" alt="Serviços da classe Hotel"/>
 
 <strong>(Obs: O arquivo com os scripts de criação do banco de dados e das tabelas estão na pasta BD dentro da pasta do projeto)</strong>
