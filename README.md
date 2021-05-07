@@ -36,3 +36,5 @@
   <li>update(PUT) -http://localhost:8097/hotelcalifornia/cliente</li>
   <li>delete(DELETE) - http://localhost:8097/hotelcalifornia/cliente/{cpf}</li>
 </ul>
+
+<strong>(Obs: O arquivo com os scripts de criação do banco de dados e das tabelas estão na pasta BD dentro da pasta do projeto)</strong>
