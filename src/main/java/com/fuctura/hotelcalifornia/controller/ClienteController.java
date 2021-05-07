@@ -1,3 +1,8 @@
+/*
+ * Autor: Ricardo Soares
+ * Data: 07/05/2021
+ */
+
 package com.fuctura.hotelcalifornia.controller;
 
 import java.util.List;
@@ -17,6 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.fuctura.hotelcalifornia.model.Cliente;
 import com.fuctura.hotelcalifornia.repository.ClienteRepository;
 
+//Classe responsável por disponibilizar os serviços de CRUD da classe Cliente.
 @RestController
 @RequestMapping({"/hotelcalifornia/cliente"})
 public class ClienteController {
