@@ -1,7 +1,11 @@
 package com.fuctura.hotelcalifornia.model;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.OneToOne;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -19,5 +23,7 @@ public class Cliente {
 	private int    idade;
 	private String fone;
 	private String email;
-	private int    matricula;
+	@OneToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name="matricula", referencedColumnName = "matricula")
+	private Hotel  hotel;
 }
